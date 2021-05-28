@@ -20,7 +20,9 @@ body{
 	font-family: "Poppins", Sans-serif;
 	font-size: 16px
 }
-
+th{
+padding: 5px;
+}
 .contenedor{
 	width: 90%;
 	max-width: 1000px;
