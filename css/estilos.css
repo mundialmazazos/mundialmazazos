@@ -1,0 +1,224 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.liga .usf { display: none; }
+.mundial:hover .f4 { display: none; }
+.mundial:hover .usf { display: inline; }
+
+a {
+	color: #fff;
+    text-decoration: none; 
+    decoration: none; 
+}
+a:visited{
+	color: #fff;
+}
+body{
+	background: #262b34;
+	font-family: "Poppins", Sans-serif;
+	font-size: 16px
+}
+
+.contenedor{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	}
+
+/*-------------------HEADER-------------------*/
+header{
+	width: auto;
+	height: auto;
+	background: url('../img/f45.jpeg') #2cf1ad;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+height: 100%; 
+position: relative;
+overflow: hidden;
+}
+
+header .menu{
+	margin: 40px 0;
+	text-align: right;
+}
+
+header .menu a{
+	margin: 0 20px;
+	color: #fff;
+	padding-bottom: 9px;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
+	font-size: 1em;
+}
+
+header .menu a:hover{
+	border-bottom: 2px solid  #fff; 
+}
+header .liga h1{
+	font-size: 60px;
+	color: #fff;
+}
+header .liga h2{
+	font-size: 30px;
+	color: #fff;
+}
+header .liga h3{
+	font-size: 20px;
+	color: #fff;
+}
+
+header .contenedor{
+	width: 100%;
+	max-width: 100%;
+
+}
+
+header .liga{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+header .logo{
+display: flex;
+	justify-content: center;
+}
+
+header .info{
+	margin-top: 25px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+header .liga h1 {
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+header .liga h2 {
+	border: 2px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+/*-------------------TABLAS-------------------*/
+.trabajos-tablas {
+	margin: 50px 0;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.trabajos-tablas .contenedor .titulo {
+	font-size: 50px;
+	color: #fff;
+}
+
+.trabajos-tablas .tablas{
+	margin: 15px 0;
+
+}
+table ,tr{
+	 border-collapse: collapse;
+    border: 1px solid black;
+  	 text-align:center;
+  	 color: #fff;
+
+}
+
+
+.equipo {
+    color: #fff;
+
+}
+.equipo img{
+    text-align:center;
+
+}
+
+
+/*-------------------FOOTER-------------------*/
+
+footer{
+	background: #2cf1ad;
+	padding:60px 0;
+}
+footer .autor{
+	text-align: center;
+	color: #fff;
+}
+footer .redes-sociales a{
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display:block;
+	padding: 15px 0;
+	border-radius: 8px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+.redes-sociales a{
+	color: #fff;
+	text-align: center;
+	/*width: 100px;*/
+	display:block;
+	padding: 15px 0;
+	border-radius: 8px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+.twitch:hover{
+	background: #6441A4;
+}
+
+footer .redes-sociales .contenedor-redes{
+	display: flex;
+	justify-content: center;
+}
+
+footer .redes-sociales .twitter:hover{
+	background: #1da1f2;
+}
+
+footer .redes-sociales .facebook:hover{
+	background: #3b5998;
+}
+
+footer .redes-sociales .youtube:hover{
+	background: #ff0000;
+}
+
+footer .redes-sociales .git:hover{
+	background: #4078c0;
+}
+
+
+@media screen and (max-width: 450px){
+	header .liga h1{
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.main .trabajos .contenedor .contenedor-trabajos .trabajo{
+		width: 46%;
+	}
+
+	footer .redes-sociales .contenedor{
+		flex-wrap:wrap;
+		padding: 10px 0;
+	}
+}
