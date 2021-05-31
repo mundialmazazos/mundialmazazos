@@ -3,10 +3,15 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+html {
+	scroll-behavior: smooth;
+  }
 .liga .usf { display: none; }
 .mundial:hover .f4 { display: none; }
 .mundial:hover .usf { display: inline; }
-
+.bg-borja{
+	background-color: #2cf1ad!important;
+}
 a {
 	color: #fff;
     text-decoration: none; 
@@ -15,13 +20,20 @@ a {
 a:visited{
 	color: #fff;
 }
-
+.nav-link{
+	color: #fff!important;
+}
 .circuito{
     color: #2cf1ad!important;
     text-decoration: none; 
     decoration: none; 
 }
-
+.tituloSancion{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin: 25px;
+}
 .circuito:hover{
     color: #2cf1ad;
     text-decoration: none; 
@@ -56,7 +68,7 @@ header{
 	width: 100%;
 height: 100%; 
 position: relative;
-overflow: hidden;
+/*overflow: hidden;*/
 }
 
 header .menu{
@@ -231,6 +243,13 @@ footer .redes-sociales .git:hover{
 		text-align: center;
 		font-size: 30px;
 	}
+
+	header .liga h3{
+		text-align: center;
+		font-size: 15px;
+	}
+
+
 
 	.main .trabajos .contenedor .contenedor-trabajos .trabajo{
 		width: 46%;
