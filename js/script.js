@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "<p class=''>Estamos en vivo: </p>  <div class='redes-sociales'> <a href='https://www.twitch.tv/borja_zazo' class='twitch'><i class='fa fa-twitch'></i></a><div>";
+    document.getElementById("demo").innerHTML = "<p class=''>Estamos en vivo: </p>  <div class='redes-sociales'> <a href='https://www.twitch.tv/borja_zazo' class='twitch'><i class='fab fa-twitch'></i></a><div>";
   }
 }, 1000);
