@@ -12,6 +12,9 @@ html {
 .bg-borja{
 	background-color: #2cf1ad!important;
 }
+p{
+	color: #fff;
+}
 a {
 	color: #fff;
     text-decoration: none; 
@@ -23,13 +26,20 @@ a:visited{
 .nav-link{
 	color: #fff!important;
 }
-.dropdown-item{
-	
+
+.tarjetas tr th{
+	border:1px solid black;;
 }
 .circuito{
     color: #2cf1ad!important;
     text-decoration: none; 
     decoration: none; 
+}
+.tituloReglamento{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+	margin: 25px;
 }
 .tituloSancion{
 	font-size: 30px;
@@ -213,6 +223,9 @@ footer .redes-sociales a{
 
 .twitch:hover{
 	background: #6441A4;
+}
+.discord:hover{
+	background: #7289da;
 }
 
 footer .redes-sociales .contenedor-redes{
