@@ -12,6 +12,14 @@ html {
 .bg-borja{
 	background-color: #2cf1ad!important;
 }
+.developed{
+	font-size: 13px;
+	text-align: center;
+}
+.developed a{
+	font-size: 13px;
+	text-align: center;
+}
 .calMob{
 	display: none;
 }
