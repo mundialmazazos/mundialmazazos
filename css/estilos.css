@@ -52,6 +52,9 @@ a:visited{
     text-decoration: none; 
     decoration: none; 
 }
+..dropdown-item{
+	color: #fff!important;
+}
 .navbar-brand{
 	font-family: 'Pacifico', cursive;
 	color: #fff!important;
