@@ -52,7 +52,7 @@ a:visited{
     text-decoration: none; 
     decoration: none; 
 }
-..dropdown-item{
+.dropdown-item{
 	color: #fff!important;
 }
 .navbar-brand{
