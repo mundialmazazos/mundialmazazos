@@ -37,6 +37,9 @@ a:visited{
 .nav-link{
 	color: #fff!important;
 }
+.clarobollo{
+	font-size: 5px;
+}
 .bg-slider{
 	background: rgba(38,43,52,0.5);
     color: #fff;
